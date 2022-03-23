@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                 final isi = items[index];
                 return InkWell(
                   onTap: (){
-                    Navigator.pushNamed(context, '/detail', arguments: items);
+                    Navigator.pushNamed(context, '/detail', arguments: isi);
                   },
                   child: Container(
                     child: Row(
